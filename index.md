@@ -16,10 +16,10 @@ socials:
     title: Facebook
 
 info:
-  occupation: 'Full-Stack developer'
+  occupation: 'Full-stack Developer'
   hobby_1: 'Rig Builder/PC Modder'
   hobby_2: 'Tech Enthusiast'
+  based: 'based from the Philippines'
 
-based: '&nbsp; based from the Philippines'
 layout: my-fancy-portfolio
 ---

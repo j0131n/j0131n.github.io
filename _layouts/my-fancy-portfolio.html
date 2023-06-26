@@ -3,11 +3,12 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>J0131N's Github Page</title>
 
    <link rel="stylesheet" href="/assets/css/main.css">
    <link rel="stylesheet" href="/assets/css/reset.css">
    <link rel="stylesheet" href="/assets/css/headline.css">
+
    <script src="/assets/js/modernizr.js"></script>
 </head>
 <body id="top">
@@ -17,10 +18,20 @@
    	<div class="intro-content">
    		<div class="row">
    			<div class="col-twelve">
-
-	   			<h5>Hello, World.</h5>
+               <div class="cd-intro">
+                  <h5>Hello, World.</h5>
+                  <h1>I am Jobin Cantoria</h1>
+                  <p class="cd-headline letters type">
+                     <span>A</span>
+                     <span class="cd-words-wrapper">
+                        <b class="is-visible">{{ page.info['occupation'] }}</b>
+                        <b>{{ page.info['hobby_1'] }}</b>
+                        <b>{{ page.info['hobby_2'] }}</b>
+                     </span>
+                     <span>{{ page.info['based'] }}</span>
+                  </p>
+               </div>
 	   		</div>
-   			
    		</div>   		 		
    	</div> 
 
@@ -41,6 +52,7 @@
    </div> 
 
    <script src="/assets/js/jquery.min.js"></script>
+   <script src="/assets/js/plugins.js"></script>
    <script src="/assets/js/main.js"></script>
    <script src="/assets/js/headline.js"></script>
 

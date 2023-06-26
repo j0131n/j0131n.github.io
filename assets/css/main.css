@@ -59,7 +59,7 @@
      transition: all 0.3s ease-in-out;
  }
  a:hover, a:focus, a:active {
-     color: #FF0077;
+     color: #bd5d38;
      outline: 0;
  }
  
@@ -270,7 +270,7 @@
      width: 8px;
      height: 8px;
      border-radius: 50%;
-     background: #FF0077;
+     background: #bd5d38;
      position: absolute;
      left: -17px;
      top: 11px;
@@ -278,7 +278,7 @@
  }
  dt {
      margin: 0;
-     color: #FF0077;
+     color: #bd5d38;
  }
  dd {
      margin: 0 0 0 2rem;
@@ -398,7 +398,7 @@
      display: none;
  }
  .pace .pace-progress {
-     background: #FF0077;
+     background: #bd5d38;
      position: fixed;
      z-index: 900;
      top: 0;
@@ -441,7 +441,7 @@
      border-top: 11px solid rgba(255, 255, 255, 0.1);
      border-right: 11px solid rgba(255, 255, 255, 0.1);
      border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-     border-left: 11px solid #FF0077;
+     border-left: 11px solid #E95420;
      -webkit-animation: load 1.1s infinite linear;
      animation: load 1.1s infinite linear;
      display: block;
@@ -563,8 +563,8 @@
  input[type="password"]:focus,
  textarea:focus,
  select:focus {
-     color: #cc005f;
-     border-bottom: 1px solid #FF0077;
+     color: #E95420;
+     border-bottom: 1px solid #bd5d38;
  }
  label, legend {
      font-family: "poppins-bold", sans-serif;
@@ -705,8 +705,8 @@
      line-height: 5.4rem !important;
  }
  button.stroke:hover, .button.stroke:hover {
-     border: 3px solid #FF0077;
-     color: #FF0077;
+     border: 3px solid #bd5d38;
+     color: #bd5d38;
  }
  button::-moz-focus-inner, input::-moz-focus-inner {
      border: 0;
@@ -894,7 +894,7 @@
      color: #252525;
  }
  .stats-tabs li a:hover {
-     color: #FF0077;
+     color: #bd5d38;
  }
  .stats-tabs li a em {
      display: block;
@@ -1010,7 +1010,7 @@
      margin-bottom: 1.2rem;
  }
  .section-intro h5 {
-     color: #FF0077;
+     color: #bd5d38;
      font-size: 1.6rem;
      line-height: 1.875;
      margin-bottom: 0.3rem;
@@ -1107,7 +1107,7 @@
  }
  .menu-toggle span {
      display: block;
-     background-color: #FF0077;
+     background-color: #bd5d38;
      width: 24px;
      height: 3px;
      margin-top: -1.5px;
@@ -1165,7 +1165,7 @@
      background-color: rgba(255, 0, 119, 0);
  }
  .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-     background-color: #ff0077;
+     background-color: #bd5d38;
      -moz-transition-delay: 0s, 0.2s;
      -o-transition-delay: 0s, 0.2s;
      -webkit-transition-delay: 0s, 0.2s;
@@ -1221,12 +1221,12 @@
      border: none;
  }
  .main-navigation li a:hover {
-     color: #FF0077;
+     color: #bd5d38;
      padding-left: 1rem;
  }
  .main-navigation li.current > a {
      background: none;
-     color: #FF0077;
+     color: #bd5d38;
  }
  
  /**
@@ -1306,7 +1306,7 @@
      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  }
  .intro-content h5 {
-     color: #cc005f;
+     color: #E95420;
      font-family: "poppins-bold", sans-serif;
      font-size: 2.3rem;
      line-height: 1.565;
@@ -1353,7 +1353,7 @@
      letter-spacing: .25rem;
  }
  .intro-content .button:hover, .intro-content .button:focus {
-     border-color: #cc005f;
+     border-color: #E95420;
  }
  .intro-content .button::after {
      display: inline-block;
@@ -1385,7 +1385,7 @@
      color: #FFFFFF;
  }
  .intro-social li a:hover, .intro-social li a:focus {
-     color: #cc005f;
+     color: #E95420;
  }
  
  /**
@@ -1598,7 +1598,7 @@
      text-align: center;
  }
  #resume .resume-header h2 {
-     color: #FF0077;
+     color: #bd5d38;
  }
  
  #resume .resume-timeline {
@@ -1925,7 +1925,7 @@
      border-right: 1px solid rgba(200, 200, 200, 0.1);
  }
  .popup-modal .link-box a:hover {
-     background: #cc005f;
+     background: #E95420;
      border: none;
  }
  @media only screen and (max-width:600px) {
@@ -2091,7 +2091,7 @@
      color: white;
  }
  #services .section-intro h5 {
-     color: #FF0077;
+     color: #bd5d38;
  }
  #services .section-intro p {
      color: rgba(255, 255, 255, 0.7);
@@ -2113,7 +2113,7 @@
  }
  .services-list .icon i {
      font-size: 5.4rem;
-     color: #FF0077;
+     color: #bd5d38;
  }
  .services-list h3 {
      color: #FFFFFF;
@@ -2141,7 +2141,7 @@
      background: #FFFFFF;
  }
  .owl-theme .owl-controls .owl-page.active span {
-     background: #FF0077;
+     background: #bd5d38;
  }
  
  
@@ -2227,7 +2227,7 @@
      color: white;
  }
  #contact .section-intro h5 {
-     color: #FF0077;
+     color: #bd5d38;
  }
  #contact .section-intro p {
      color: rgba(255, 255, 255, 0.7);
@@ -2280,7 +2280,7 @@
      padding: 0 2rem;
      margin: 0;
      color: #FFFFFF;
-     background: #FF0077;
+     background: #bd5d38;
  }
  #contact form .form-field label::after {
      position: absolute;
@@ -2289,7 +2289,7 @@
      margin-top: -6px;
      border-top: 5px solid transparent;
      border-bottom: 5px solid transparent;
-     border-right: 5px solid #FF0077;
+     border-right: 5px solid #bd5d38;
      content: "";
  }
  #contact input[type="text"],
@@ -2311,7 +2311,7 @@
  #contact input[type="text"]:focus,
  #contact input[type="password"]:focus,
  #contact input[type="email"]:focus {
-     border-color: #FF0077;
+     border-color: #bd5d38;
      color: #FFFFFF;
  }
  #contact textarea {
@@ -2319,7 +2319,7 @@
      padding: 1.8rem 2rem;
  }
  #contact textarea:focus {
-     border-color: #FF0077;
+     border-color: #bd5d38;
      color: #FFFFFF;
  }
  #contact button.submitform {
@@ -2331,11 +2331,11 @@
      padding: 0 3rem;
      margin-top: 4.8rem;
      width: 100%;
-     background: #FF0077;
+     background: #bd5d38;
      color: #FFFFFF;
  }
  #contact button.submitform:hover, #contact button.submitform:focus {
-     background: #cc005f;
+     background: #E95420;
  }
  #message-warning, #message-success {
      display: none;
@@ -2349,7 +2349,7 @@
      color: #fa0003;
  }
  #message-success {
-     color: #FF0077;
+     color: #bd5d38;
  }
  #message-warning i, #message-success i {
      margin-right: 10px;
@@ -2394,7 +2394,7 @@
      color: #FFFFFF;
  }
  .contact-info h5 {
-     color: #FF0077;
+     color: #bd5d38;
  }
  
  /**
@@ -2468,7 +2468,7 @@
      color: #FFFFFF;
  }
  footer a:hover, footer a:focus {
-     color: #FF0077;
+     color: #bd5d38;
  }
  footer .row {
      max-width: 900px;
@@ -2547,7 +2547,7 @@
      width: 6rem;
      line-height: 6.6rem;
      text-align: center;
-     background: #cc005f;
+     background: #E95420;
      color: #FFFFFF;
      text-align: center;
      text-transform: uppercase;

@@ -78,15 +78,16 @@ Primary style
     font-size: 3rem;
     line-height: 1.2;
   }
+
   @media only screen and (min-width: 768px) {
     .cd-headline {
-      font-size: 4.4rem;
+      font-size: 3rem;
       font-weight: 300;
     }
   }
   @media only screen and (min-width: 1170px) {
     .cd-headline {
-      font-size: 6rem;
+      font-size: 3.2rem;
     }
   }
   
@@ -94,6 +95,7 @@ Primary style
     display: inline-block;
     position: relative;
     text-align: left;
+    color: #E95420;
   }
   .cd-words-wrapper b {
     display: inline-block;
