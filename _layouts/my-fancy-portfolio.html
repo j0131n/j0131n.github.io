@@ -5,42 +5,34 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
 
-   <link rel="stylesheet" href="assets/css/base.css">  
-   <link rel="stylesheet" href="assets/css/main.css">
-   <link rel="stylesheet" href="assets/css/vendor.css">
-
-	<script src="assets/js/modernizr.js"></script>
-	<script src="assets/js/pace.min.js"></script>
+   <link rel="stylesheet" href="/assets/css/main.css">
+   <link rel="stylesheet" href="/assets/css/reset.css">
+   <link rel="stylesheet" href="/assets/css/headline.css">
+   <script src="/assets/js/modernizr.js"></script>
 </head>
 <body id="top">
 
-   <section id="intro">   
-
-   	<div class="intro-overlay"></div>	
-
+   <section id="intro">
+   	<div class="intro-overlay"></div>
    	<div class="intro-content">
    		<div class="row">
-
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
-
-	   			<p class="intro-position">
-	   				<span>Front-end Developer</span>
-	   				<span>UI/UX Designer</span> 
-	   			</p>
-
-	   		</div>  
+	   		</div>
    			
    		</div>   		 		
    	</div> 
 
-   	<ul class="intro-social">        
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-         <li><a href="#"><i class="fa fa-github"></i></a></li>
-      </ul>    	
+      <ul class="intro-social">
+         {% for social in page.socials %}
+            <li>
+               <a href="{{ social.url }}" alt="{{ social.title }}" target="_blank">
+                  <i class="fa fa-{{ social.title | downcase }}"></i>
+               </a>
+            </li>
+         {% endfor %}
+      </ul>
 
    </section>
 
@@ -48,9 +40,9 @@
     	<div id="loader"></div>
    </div> 
 
-   <script src="assets/js/jquery-2.1.3.min.js"></script>
-   <script src="assets/js/plugins.js"></script>
-   <script src="assets/js/main.js"></script>
+   <script src="/assets/js/jquery.min.js"></script>
+   <script src="/assets/js/main.js"></script>
+   <script src="/assets/js/headline.js"></script>
 
 </body>
 </html>
